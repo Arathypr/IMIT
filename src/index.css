@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+
+@font-face {
+  font-family: "Inter-Light-BETA";
+  src: local("Inter-Light-BETA"),
+    /* url(./assets/fonts/Inter-Light-BETA.ttf) format(ttf) */
+      url(./assets/fonts/Inter-Light-BETA.ttf) format("truetype");
+}
+@font-face {
+  font-family: "proxima";
+  src: local("Proxima"),
+    url("./assets/fonts/Fontspring-DEMO-proximanovaexcn-light.otf")
+      format("truetype");
+  /* font-weight: bold; */
+}
+.fontAdd {
+  font-family: "Inter-Light-BETA";
+}
+
+.fontForum {
+  font-family: "Forum", cursive;
+}
+.fontproxima {
+  font-family: "proxima";
+}
